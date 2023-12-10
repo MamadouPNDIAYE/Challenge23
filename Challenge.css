@@ -1,0 +1,163 @@
+*{ margin: 0; padding: 0; }
+
+body
+{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(logo.jpg);
+    background-size: cover;
+    background-position: auto;
+}
+
+/* Cette partie du code stylise le menu de navigation  */
+/* Cette partie du code stylise le menu de navigation  */
+
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon
+{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+.logo
+{
+    color: #001aff;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+    color: #001aff;
+}
+
+/* Cette partie du code stylise le contenu du site web  */
+/* Cette partie du code stylise le contenu du site web  */
+
+.content
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 1px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 20px
+}
+
+.content h1
+{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+}
+
+.content span 
+{
+    color: #001aff;
+    font-size: 40px
+}
+
+.deukway 
+{
+    margin-top: 25px;
+    padding-left: 20px;
+    font-family: 'Times New Roman';
+    padding-right: 500px;
+    font-family: Arial;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.deukk
+{
+    width: 250px;
+    height: 500px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(eau.jpg);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    padding: 25px;
+    font-size: 20px
+}
+
+img
+{
+    width: 500px; 
+}
+
+.bouton
+{
+    width: 150px;
+    height: 40px;
+    background:  #438f3c; 
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 20px;
+   
+}
+.bouton:hover
+{
+    background: #73ff00;
+    color: white;
+}
+.bouton a
+{
+    text-decoration: none;
+    color: #fff;
+}
